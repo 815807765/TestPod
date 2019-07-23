@@ -8,6 +8,4 @@ Pod::Spec.new do |s|
   s.source   = { :git => 'https://github.com/815807765/TestPod.git', :tag => "0.0.1" } //git路径、指定tag号
   s.platform = :ios 
   s.source_files = 'AppInfo/*'  //库的源代码文件
-  s.framework = 'UIKit'  //依赖的framework
-  s.requires_arc = true
 end
